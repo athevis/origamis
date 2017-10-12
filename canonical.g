@@ -39,6 +39,12 @@ CanonicalPermFromCycleStructure := function(cycleStructure)
   return PermList(permList);
 end;
 
+
+CanonicalPermFromPartition := function(part)
+    return CanonicalPermFromCycleStructure(CycleStructureFromPartition(part));
+end;
+
+
 #Calculates a canonical image of a permutation
 #Input: a permutation perm
 #output: the canonical representation of perm

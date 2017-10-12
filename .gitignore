@@ -1,3 +1,6 @@
-profile/
+profile*/
+outputfiles/
 *~
 *.gz
+*.gapws
+*.log

@@ -11,14 +11,18 @@ if not IsBound(F) then
 	T:=gens[2];
 fi;
 
+if not IsBound(conjugacyClassesOfx) then
+	conjugacyClassesOfx := [];
+fi;
 
 
 Read("canonical.g");
-Read("action.g");
-Read("equivalent.g");
-Read("./hash/hash-tuples.gi");
-Read("./hash/orbit.g");
-Read("origami-list.g");
-Read("det_veech_group.g");
-Read("examples.g");
-Read("profile.g");
+#Read("action.g");
+#Read("equivalent.g");
+#Read("./hash/hash-tuples.gi");
+#Read("./hash/orbit.g");
+#Read("origami-list.g");
+#Read("det_veech_group.g");
+#Read("examples.g");
+#Read("profile.g");
+Read("origami-list-parallel.g");
