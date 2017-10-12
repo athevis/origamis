@@ -1,5 +1,4 @@
 
-
 #This function calculates the coset graph of the veech group of a given Origami O
 #INPUT: An origami
 #OUTPUT: The coset Graph as adjiency Matrix
